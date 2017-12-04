@@ -1,0 +1,9 @@
+{
+  "name": "notes-app-api",
+  "version": "1.0.0",
+  "description": "Packaged externals for notes-app-api",
+  "private": true,
+  "dependencies": {
+    "babel-runtime": "^6.26.0"
+  }
+}
