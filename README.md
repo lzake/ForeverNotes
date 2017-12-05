@@ -1,5 +1,5 @@
 # ForeverNotes
-* Note Taking App with a twist - the MySQL on AWS is set to stream across 3 continents, so not even a nuke coule get rid of what you put in here. Encrypted by SHA256, this will last ~1 billion years, whether you like it or not.
+* Note Taking App with a twist - the MySQL on AWS is set to stream across 3 continents, so not even a nuke could get rid of what you put in here. Encrypted by SHA256, this will last ~1 billion years.
 
 * CRUD compatible 
 1. create = /post
