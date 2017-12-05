@@ -1,11 +1,9 @@
 import React, {Component} from "react";
 import {HelpBlock, FormGroup, FormControl, ControlLabel} from "react-bootstrap";
 import LoaderButton from "../components/LoaderButton";
-import { AuthenticationDetails, CognitoUserPool} from "amazon-cognito-identity-js"; import config from "../config";
+import {AuthenticationDetails, CognitoUserPool} from "amazon-cognito-identity-js";
+import config from "../config";
 import "./Signup.css";
-
-
-
 
 export default class Signup extends Component {
     constructor(props) {
@@ -116,14 +114,50 @@ export default class Signup extends Component {
     renderForm() {
         return (
             <form onSubmit={this.handleSubmit}>
-                <FormGroup controlId="email" bsSize="large">
+                <FormGroup controlId="emailfirst" bsSize="large">
                     <ControlLabel>Email</ControlLabel>
+                    <FormControl autoFocus type="email" value={this.state.emailfirst}/>
+                </FormGroup>
+                <FormGroup controlId="emailveri" bsSize="large">
+                    <ControlLabel>Verify Email</ControlLabel>
                     <FormControl
                         autoFocus
                         type="email"
                         value={this.state.email}
                         onChange={this.handleChange}/>
                 </FormGroup>
+                <FormGroup>
+
+                    <label for="phoneNumberParts" class="col-sm-2 control-label">Phone Number</label>
+
+                    <span class="form-control-static">(</span>
+                    <input
+                        type="text"
+                        class="form-control grouped-field"
+                        id="phonePrefix"
+                        placeholder="999"
+                        size="3"
+                        maxlength="3"/>
+                    <span class="form-control-static">)
+                    </span>
+                    <input
+                        type="text"
+                        class="form-control grouped-field"
+                        id="phonePrefix"
+                        placeholder="999"
+                        size="3"
+                        maxlength="3"/>
+                    <span class="form-control-static">-</span>
+                    <input
+                        type="text"
+                        class="form-control grouped-field"
+                        id="phonePrefix"
+                        placeholder="9999"
+                        size="4"
+                        maxlength="4"/>
+
+                </FormGroup>
+
                 <FormGroup controlId="password" bsSize="large">
                     <ControlLabel>Password</ControlLabel>
                     <FormControl
