@@ -11,6 +11,8 @@ export default class Signup extends Component {
         this.state = {
             isLoading: false,
             email: "",
+            confirmemail: "",
+            phone: "",
             password: "",
             confirmPassword: "",
             confirmationCode: "",
@@ -116,58 +118,41 @@ export default class Signup extends Component {
             <form onSubmit={this.handleSubmit}>
                 <FormGroup controlId="emailfirst" bsSize="large">
                     <ControlLabel>Email</ControlLabel>
-                    <FormControl autoFocus type="email" value={this.state.emailfirst}/>
+                    <FormControl 
+                    autoFocus 
+                    type="email" 
+                    placeholder="Example@example.com"
+                    value={this.state.email}
+                    onChange={this.handleChange} />
                 </FormGroup>
                 <FormGroup controlId="emailveri" bsSize="large">
                     <ControlLabel>Verify Email</ControlLabel>
                     <FormControl
-                        autoFocus
                         type="email"
-                        value={this.state.email}
+                        value={this.state.confirmemail}
+                        placeholder="Example@example.com"
                         onChange={this.handleChange}/>
                 </FormGroup>
-                <FormGroup>
-
-                    <label for="phoneNumberParts" class="col-sm-2 control-label">Phone Number</label>
-
-                    <span class="form-control-static">(</span>
-                    <input
-                        type="text"
-                        class="form-control grouped-field"
-                        id="phonePrefix"
-                        placeholder="999"
-                        size="3"
-                        maxlength="3"/>
-                    <span class="form-control-static">)
-                    </span>
-                    <input
-                        type="text"
-                        class="form-control grouped-field"
-                        id="phonePrefix"
-                        placeholder="999"
-                        size="3"
-                        maxlength="3"/>
-                    <span class="form-control-static">-</span>
-                    <input
-                        type="text"
-                        class="form-control grouped-field"
-                        id="phonePrefix"
-                        placeholder="9999"
-                        size="4"
-                        maxlength="4"/>
-
+                <FormGroup controlId="phone" bsSize="large">
+                    <ControlLabel>Phone Number</ControlLabel>
+                    <FormControl
+                        type="phone"
+                        value={this.state.phone}
+                        placeholder="(***) ***-****"
+                        onChange={this.handleChange}/>
                 </FormGroup>
-
                 <FormGroup controlId="password" bsSize="large">
                     <ControlLabel>Password</ControlLabel>
                     <FormControl
                         value={this.state.password}
                         onChange={this.handleChange}
+                        placeholder="********"
                         type="password"/></FormGroup>
                 <FormGroup controlId="confirmPassword" bsSize="large">
                     <ControlLabel>Confirm Password</ControlLabel>
                     <FormControl
                         value={this.state.confirmPassword}
+                        placeholder="********"
                         onChange={this.handleChange}
                         type="password"/>
                 </FormGroup>
