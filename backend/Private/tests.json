@@ -1,12 +1,1 @@
-apig-test \
---username='admin@example.com' \
---password='Passw0rd!' \
---user-pool-id='us-west-2_GUg1t77Nr' \
---app-client-id='323kfhnc1nqhkd1ammhv1a5jfv' \
---cognito-region='us-west-2' \
---identity-pool-id='us-west-2:93051523-0455-4827-b739-158df6e183d1' \
---invoke-url='https://u0hrjn91qg.execute-api.us-west-2.amazonaws.com/prod' \
---api-gateway-region='us-west-2' \
---path-template='/notes' \
---method='POST' \
---body='{"content":"hello world","attachment":"hello.jpg"}'
+HA! YEA RIGHT, I'm not a fool
