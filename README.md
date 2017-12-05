@@ -7,35 +7,35 @@
 1. update = /put
 1. delete = /delete
 
-##Splash page
+## Splash page
 
 <kbd><img src="./screenshots/1.png" /></kbd>
 
-##Login page
+## Login page
 
 <kbd><img src="./screenshots/2.png" /></kbd>
 
-##Authenticated Splash page
+## Authenticated Splash page
 
 <kbd><img src="./screenshots/3.png" /></kbd>
 
-##New Note page
+## New Note page
 
 <kbd><img src="./screenshots/4.png" /></kbd>
 
-##Updated, Authenticated Splash page
+## Updated, Authenticated Splash page
 
 <kbd><img src="./screenshots/5.png" /></kbd>
 
-##View Note page
+## View Note page
 
 <kbd><img src="./screenshots/6.png" /></kbd>
 
-##Delete Note Alert
+## Delete Note Alert
 
 <kbd><img src="./screenshots/7.png" /></kbd>
 
-##Re-Updated, Authenticated Splash page
+## Re-Updated, Authenticated Splash page
 
 <kbd><img src="./screenshots/8.png" /></kbd>
 
