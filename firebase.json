@@ -1,0 +1,16 @@
+{
+  "hosting": {
+    "public": "frontend/forever-notes/build",
+    "ignore": [
+      "firebase.json",
+      "**/.*",
+      "**/node_modules/**"
+    ],
+    "rewrites": [
+      {
+        "source": "**",
+        "destination": "/frontend/forever-notes/build/index.html"
+      }
+    ]
+  }
+}

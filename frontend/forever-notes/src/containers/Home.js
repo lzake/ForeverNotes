@@ -58,8 +58,12 @@ export default class Home extends Component {
     renderLander() {
         return (
             <div className="lander">
-                <h1>ForeverNotes</h1>
-                <p>An app to keep notes until the heat death of the universe</p>
+            <img
+            src={require('../images/icon.png')}
+            className="img-responsive maxicon"
+            alt=""/><br />
+                <p>Keep notes until the heat death of the universe</p>
+                <p>Guaranteed to last <strong>1,898,734,109%</strong> longer than the average lifespan!</p>
             </div>
         );
     }

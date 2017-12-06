@@ -116,7 +116,7 @@ export default class Signup extends Component {
     renderForm() {
         return (
             <form onSubmit={this.handleSubmit}>
-                <FormGroup controlId="emailfirst" bsSize="large">
+                <FormGroup controlId="email" bsSize="large">
                     <ControlLabel>Email</ControlLabel>
                     <FormControl 
                     autoFocus 
@@ -124,14 +124,6 @@ export default class Signup extends Component {
                     placeholder="Example@example.com"
                     value={this.state.email}
                     onChange={this.handleChange} />
-                </FormGroup>
-                <FormGroup controlId="emailveri" bsSize="large">
-                    <ControlLabel>Verify Email</ControlLabel>
-                    <FormControl
-                        type="email"
-                        value={this.state.confirmemail}
-                        placeholder="Example@example.com"
-                        onChange={this.handleChange}/>
                 </FormGroup>
                 <FormGroup controlId="phone" bsSize="large">
                     <ControlLabel>Phone Number</ControlLabel>
