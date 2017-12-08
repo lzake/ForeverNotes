@@ -20,7 +20,7 @@
 
 ## example of usage
 
-<kbd><img src="./screenshots/forevernotes.gif" style="width: 200px;" /></kbd>
+<kbd><img src="./screenshots/forevernotes.gif" style="width: 125px;" /></kbd>
 
 ## Splash page
 
