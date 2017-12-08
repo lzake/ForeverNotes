@@ -18,6 +18,10 @@
 1. update = /put
 1. delete = /delete
 
+## example of usage
+
+<kbd><img src="./screenshots/forevernotes.gif" /></kbd>
+
 ## Splash page
 
 <kbd><img src="./screenshots/1.png" /></kbd>
