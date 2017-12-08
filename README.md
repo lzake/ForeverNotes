@@ -18,9 +18,9 @@
 1. update = /put
 1. delete = /delete
 
-## example of usage
+## example of use
 
-<kbd><img src="./screenshots/forevernotes.gif" style="width: 125px;" /></kbd>
+![gif](/screenshots/forevernotes.gif){:height="50%" width="50%"}
 
 ## Splash page
 
