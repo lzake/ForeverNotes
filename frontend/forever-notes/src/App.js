@@ -4,6 +4,7 @@ import {Nav, NavItem, Navbar} from "react-bootstrap";
 import Routes from "./Routes";
 import RouteNavItem from "./components/RouteNavItem";
 import {authUser, signOutUser} from "./libs/awsLib";
+import 'font-awesome/css/font-awesome.min.css';
 import "./App.css";
 
 class App extends Component {
@@ -46,7 +47,7 @@ class App extends Component {
       <Navbar fluid collapseOnSelect>
         <Navbar.Header>
           <Navbar.Brand>
-            <Link to="/">ForeverNotes</Link>
+            <Link to="/"><img className="icontop" src={require('./images/icon.png')} /></Link>
           </Navbar.Brand>
           <Navbar.Toggle/>
         </Navbar.Header>

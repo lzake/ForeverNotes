@@ -1,5 +1,16 @@
 .App {
   margin-top: 15px;
-  }
-  .App .navbar-brand { font-weight: bold;
-  }
+}
+
+.App .navbar-brand {
+  font-weight: bold;
+}
+
+.icontop {
+  max-width: 235px;
+  margin-top: -9px;
+}
+
+#root {
+  backgroundImage: url('/images/background.jpg')!important
+}

@@ -113,6 +113,7 @@ export default class Notes extends Component {
                 {this.state.note && <form onSubmit={this.handleSubmit}>
                     <FormGroup controlId="content">
                         <FormControl
+                            className="noteArea"
                             onChange={this.handleChange}
                             value={this.state.content}
                             componentClass="textarea"/>
@@ -125,11 +126,12 @@ export default class Notes extends Component {
                             </a>
                         </FormControl.Static>
                     </FormGroup>}
-                    <FormGroup controlId="file">
+                    <FormGroup controlId="file" className="uploadBox">
                         {!this.state.note.attachment && <ControlLabel>Attachment</ControlLabel>}
                         <FormControl onChange={this.handleFileChange} type="file"/>
                     </FormGroup>
                     <LoaderButton
+                    className="hvr-ripple-out"
                         block
                         bsStyle="primary"
                         bsSize="large"
@@ -139,6 +141,7 @@ export default class Notes extends Component {
                         text="Save"
                         loadingText="Saving..."/>
                     <LoaderButton
+                        className="hvr-buzz-out"
                         block
                         bsStyle="danger"
                         bsSize="large"

@@ -24,3 +24,30 @@ input.form-control {
 input[type=file] {
   width: 100%;
 }
+body {
+  background: #FFFFFF url("./images/background.jpg")!important;
+  background-size:cover!important;
+  background-size: 100%;
+  min-height: 100%!important;
+}
+@media screen and (max-width: 580px) {
+  body {
+    background: #FFFFFF url("./images/backgroundsmall.png")!important;
+    min-height: 100%!important;
+  }
+}
+.navbar-default {
+  background-color: #ffffff5a;
+  border-color: #e7e7e700;
+  border: solid black 1px;
+  border-radius: 10px;
+}
+a.list-group-item, button.list-group-item, .list-group-item:first-child, .list-group-item:last-child {
+  color: #555;
+  background-color: white;
+  border-color: #e7e7e700;
+  border: solid black 1px;
+  background-color: white;
+  /* max-width: 250px; */
+  border-radius: 7px;
+}
