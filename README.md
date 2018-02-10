@@ -20,7 +20,7 @@
 
 ## example of use
 
-![gif](/screenshots/forevernotes.gif){:height="50%" width="50%"}
+![gif](/screenshots/forevernotes.gif)
 
 ## Splash page
 
