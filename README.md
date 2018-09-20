@@ -5,8 +5,9 @@
     Amazon Web Services: 
          Computing - EC2, Lambda
          Database - S3, DynamoDB
-         API- API Gateway, AWS CLI, CloudFront
+         API- API Gateway, CloudFront
          Authentication - Cognito User Pool, Cognito Federated Identities, IAM, GuardDuty
+         Interface for AWS services management: AWS CLI
     Framework:
          Front-End FW - React.js
          Design - React-Strap Node package, Bootstrap
