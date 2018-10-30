@@ -58,4 +58,8 @@
 ## Re-Updated, Authenticated Splash page
 
 <kbd><img src="./screenshots/8.png" /></kbd>
-
+           -   -
+	  -  -  -
+	   -   -
+	    - -
+	     -
